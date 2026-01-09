@@ -8,6 +8,14 @@ export default function BlogPage() {
   // Моушен дизайн видеолары (Сілтемелерді осы жерге тізіп шығыңыз)
   const motionPosts = [
     { 
+      id: 'motion-9', 
+      video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767905495/9_pfckhm.mp4" 
+    },
+    { 
+      id: 'motion-10', 
+      video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767906272/11_y401ba.mp4" 
+    },
+    { 
       id: 'motion-1', 
       video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767903059/1_zgaekn.mp4" 
     },
@@ -38,14 +46,6 @@ export default function BlogPage() {
     { 
       id: 'motion-8', 
       video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767903169/8_tgr5lr.mp4" 
-    },
-    { 
-      id: 'motion-9', 
-      video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767905495/9_pfckhm.mp4" 
-    },
-    { 
-      id: 'motion-10', 
-      video: "https://res.cloudinary.com/djbmtcbex/video/upload/v1767906272/11_y401ba.mp4" 
     },
     { 
       id: 'motion-11', 
