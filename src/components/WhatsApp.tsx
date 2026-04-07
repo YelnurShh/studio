@@ -19,8 +19,8 @@ export default function WhatsAppButton() {
   if (!mounted) return null;
 
   const phone = '77773531376';
-  const message = encodeURIComponent('Сәлем, мен khanmedia сайтынан жазып тұрмын');
-  const whatsappLink = `https://wa.me/${phone}?text=${message}`;
+
+  const whatsappLink = `https://wa.me/${phone}`;
 
   return (
     <a
