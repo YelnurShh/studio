@@ -7,7 +7,13 @@ import { Montserrat } from "next/font/google";  // 👈 Шрифт импорт
 export const metadata = {
   title: 'KhanMedia',
   description: 'Студия моушен дизайна',
-  icons: { icon: '/favicon.ico' },
+  icons: { 
+    icon: '/favicon.ico',
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    other: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png', rel: 'apple-touch-icon' },
+    ],
+  },
   openGraph: {
     title: 'KhanMedia',
     description: 'Студия моушен дизайна',
