@@ -6,9 +6,26 @@ import { Montserrat } from "next/font/google";  // 👈 Шрифт импорт
 
 export const metadata = {
   title: 'KhanMedia',
-  icons: {
-    icon: '/favicon.ico'
-  }
+  description: 'Студия моушен дизайна',
+  icons: { icon: '/favicon.ico' },
+  openGraph: {
+    title: 'KhanMedia',
+    description: 'Студия моушен дизайна',
+    type: 'website',
+    images: [
+      {
+        url: 'https://khanstudio.vercel.app/og-image.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'KhanMedia',
+    description: 'Студия моушен дизайна',
+    images: ['https://khanstudio.vercel.app/og-image.png'],
+  },
 };
 
 // 👇 Montserrat қосамыз
